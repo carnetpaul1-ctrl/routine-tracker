@@ -1,0 +1,53 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-inter: 'Inter', system-ui, -apple-system, sans-serif;
+    --font-geist: 'Geist', monospace, system-ui, sans-serif;
+  }
+
+  body {
+    font-family: var(--font-inter);
+    background-color: #080808;
+    color: #e0e0e0;
+    -webkit-tap-highlight-color: transparent;
+    overscroll-behavior-y: contain;
+  }
+}
+
+.font-geist {
+  font-family: var(--font-geist);
+}
+
+.glass {
+  background: rgba(18, 18, 18, 0.88);
+  backdrop-filter: blur(24px);
+  -webkit-backdrop-filter: blur(24px);
+}
+
+.glass-card {
+  background: rgba(26, 26, 26, 0.7);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(8, 8, 8, 0.6);
+}
+
+::-webkit-scrollbar-thumb {
+  background: #252525;
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #383838;
+}
+
+

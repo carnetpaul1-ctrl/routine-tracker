@@ -1,0 +1,6 @@
+{
+  "name": "Vitals - Suivi d'Activités & Focus",
+  "description": "Application Android de suivi d'activités sportives, sessions de code et minuteur de focus Pomodoro.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
